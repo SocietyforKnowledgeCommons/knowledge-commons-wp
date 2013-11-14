@@ -1,17 +1,13 @@
 /*
  Theme Name:     Knowledge Commons
  Theme URI:      https://github.com/SocietyforKnowledgeCommons/knowledge-commons-wp
- Description:    Twenty Twelve Child Theme for Society For Knowledge Commons
+ Description:    Twenty Fourteen Child Theme for Society For Knowledge Commons
  Author:         Rishab Arora, Kush Jain
- Template:       twentytwelve
+ Template:       twentyfourteen
  Version:        1.0.0
 */
 
-@import url("../twentythirteen/style.css");
+@import url("../twentyfourteen/style.css");
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
-
-.nav-menu li:hover > a, .nav-menu li a:hover {
-    background-color: #241782;
-}
