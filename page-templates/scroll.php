@@ -15,18 +15,19 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
-			This is page ID: <?php the_ID(); ?><br />
 			<?php
-				$parent_id = the_ID();
-				echo $parent_id;
-				$pages = get_pages( array('child_of' => 64) );
+                $parent_id = $post->ID;
+                $pages = get_pages( array('child_of' =>  $parent_id) );
 				foreach ($pages as $page_data) {
 					$title = $page_data->post_title;
 					$slug = $page_data->post_name;
 					$pageid = $page_data->ID;
+                    $content = apply_filters('the_content', $page_data->post_content);
+                    $title = $page_data->post_title;
 
                     echo "<div class='scroll-page' id='$pageid'><a name='$slug'></a>";
                     echo "<h2>$title</h2>";
+                    echo $content;
                     echo "</div>";
                 }
 
