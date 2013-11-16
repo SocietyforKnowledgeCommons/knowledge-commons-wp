@@ -18,3 +18,15 @@
 .site-header {
 	max-width: none;
 }   
+@media screen and (min-width: 1008px) {
+	.site:before {
+		background-color: inherit;
+		content: "";
+		display: inherit;
+		height: none;
+		min-height: none;
+		position: inherit;
+		width: inherit;
+		z-index: 0;
+	}
+}
