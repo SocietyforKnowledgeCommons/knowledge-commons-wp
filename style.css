@@ -11,4 +11,10 @@
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
+.site {
+    max-width: none;
+}
 
+.site-header {
+	max-width: none;
+}   
