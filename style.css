@@ -29,4 +29,18 @@
 		width: inherit;
 		z-index: 0;
 	}
+
+	.site-content,
+	.site-main .widecolumn {
+		margin-left: 80px;
+	}
+}
+
+.site-content .entry-header,
+.site-content .entry-content,
+.site-content .entry-summary,
+.site-content .entry-meta,
+.page-content {
+	margin: 0 0;
+	max-width: none;
 }
