@@ -102,3 +102,10 @@ a.child-page {
 #secondary{
 	display: none;
 }
+
+
+.site-logo {
+    display: block-inline;
+    float: left;
+    margin-right: 5px;
+}
