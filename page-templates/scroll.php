@@ -54,8 +54,12 @@ get_header(); ?>
                     echo "<header class=\"entry-header\"><h1 class='entry-title'>$title</h1></header>";
                     echo "<div class='entry-content'>";
                     echo $content;
+
                     echo "</div>";
                     echo "</article>";
+                    if($title == 'Discuss')
+                        comments_template();
+                
                     echo "</div>";
                 }
                 
