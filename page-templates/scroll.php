@@ -14,7 +14,9 @@ get_header(); ?>
 ?>
 <?php
     $parent_id = $post->ID;
-    $pages = get_pages( array('child_of' =>  $parent_id) );
+    $pages = get_pages( array('child_of' =>  $parent_id,
+                              'sort_order' => 'ASC',
+                              'sort_column' => 'menu_order') );
     echo "<div id='sub-nav' class='center'>\n";
     echo "<ul>\n";
               foreach ($pages as $page_data) {
