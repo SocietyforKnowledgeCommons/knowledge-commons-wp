@@ -54,7 +54,7 @@
 }
 
 #sub-nav a{
-	padding: 25px 5px;
+	padding: 22px 5px;
 }
 
 #sub-nav {
@@ -64,6 +64,9 @@
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
+	position:fixed;
+	top:48px;
+	width:100%;
 }
 #sub-nav ul{
 	background: none repeat scroll 0 0 #F3F3F3;
@@ -93,12 +96,10 @@ a.child-page {
     font-size:25px;
 }
 
-.scrollable-content{
-	overflow-y:scroll;
-	height:440px;
-	position: relative;
+.masthead-fixed .site-header {
+position: fixed;
+top: 0;
 }
-
 #secondary{
 	display: none;
 }
@@ -110,6 +111,8 @@ a.child-page {
     margin-right: 5px;
 }
 
+
 .header-main .site-title {
  clear: none;
 }
+

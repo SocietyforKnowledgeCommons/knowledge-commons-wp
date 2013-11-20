@@ -22,7 +22,7 @@ get_header(); ?>
               foreach ($pages as $page_data) {
                 $title = $page_data->post_title;
                 $slug = $page_data->post_name;
-                echo   "<li><a id='nav_$slug' href='#$slug'>$title</a></li>\n";
+                echo   "<li><a id='nav_$slug'>$title</a></li>\n";
                 }
                 
     echo "</ul>\n";
