@@ -105,7 +105,11 @@ a.child-page {
 
 
 .site-logo {
-    display: block-inline;
+    display: block;
     float: left;
     margin-right: 5px;
+}
+
+.header-main .site-title {
+ clear: none;
 }
