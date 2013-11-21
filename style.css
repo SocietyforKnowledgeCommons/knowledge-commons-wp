@@ -34,8 +34,6 @@
 	.site-main .widecolumn {
 		margin-left: 80px;
 	}
-}
-@media screen and (min-width: 673px){
 	.full-width .site-content{
 		margin-right: 80px;
 	}
