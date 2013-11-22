@@ -25,7 +25,9 @@ $(function(){
         $('#sub-nav .active').removeClass('active');
         $(this).addClass('active');
         var section_top = sections[$(this).attr('id').replace("nav_", "")] - 157;
-        $(document).scrollTop(section_top);     
+        $("html body").animate({
+          scrollTop: section_top
+        }, 1000);
     });
 })
 }(jQuery)
