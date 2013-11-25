@@ -24,4 +24,7 @@ function knowledgecommons_theme_customizer( $wp_customize ) {
     ) ) );
 }
 add_action('customize_register', 'knowledgecommons_theme_customizer');
+
+add_action( 'update_option_theme_mods_knowledge-commons-wp', 'twentyfourteen_rebuild_accent_colors' );
+
 ?>
