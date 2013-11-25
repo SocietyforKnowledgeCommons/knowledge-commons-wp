@@ -3,7 +3,7 @@
  * Knowledge Commons functions and definitions
  *
  * @package WordPress
- * @subpackage Knowledge Commons
+ * @subpackage Knowledge_Commons
  * @since Knowledge Commons 1.0
  */
 
